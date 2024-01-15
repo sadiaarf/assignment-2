@@ -1,0 +1,128 @@
+* {
+    padding: 7px 12px;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* navigation section */
+.icon {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.trv {
+    color: #FF5400;
+}
+
+.menu {
+    display: flex;
+    gap: 390px;
+}
+
+.navigation {
+    padding-top: 48px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* explore your travel */
+/* .banner {
+    text-align: center;
+    margin: 20px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.defination {
+    font-size: smaller;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+} */
+/* 
+.text {
+    border: none;
+    background-color: rgb(220, 26, 26);
+    border-radius: 5px;
+    color: lightslategrey;
+    padding: 0px 60px 0px 0px;
+    text-align: center;
+}
+
+.dropdown {
+    display: flex;
+    padding: 0px 55px 0px 0px;
+    border: none;
+    background-color: rgb(220, 26, 26);
+    border-radius: 5px;
+    color: lightslategrey;
+    text-align: center;
+    gap: 60px;
+    font-size: small;
+}
+
+.drp-icon {
+    padding-right: 1000px;
+}
+#icons{
+  padding-top: 20px;
+color: lightslategray;
+} */
+/* .btn{
+    background: #FF5400;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 35px;
+} */
+
+/* Our Popular Tours */
+.tours{
+    display: flex;
+    gap: 290px;
+   
+}
+.tours-title{
+    font-size: 30px;
+}
+.description{
+    color: lightslategrey;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn1{
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 13px;
+}
+/* Choose Your Destination */
+.travel-destination{
+    text-align: center;
+}
+.img1{
+    position: relative;
+    /* text-align: center; */
+}
+.Maldives{
+    /* position: absolute; */
+    bottom: 150px;
+    text-align: center;
+}
+
+
+
+
+
+
+
