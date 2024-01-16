@@ -39,9 +39,6 @@
     margin: 0px 225px 0px 225px;
 }
 
-/* #group{
-    align-items: center;
-} */
 .images {
     margin: 0px 15px 0px 20px;
 }
@@ -73,7 +70,7 @@
     border: none;
     border-radius: 5px;
     background-color: #FF5400;
-    padding: 13px 22px;
+    padding: 13px 15px;
     color: white;
 }
 
@@ -227,8 +224,9 @@
     margin-left: 360px;
 
 }
+
 /* newsletter */
-.newsletter{
+.newsletter {
     border-radius: 10px;
     border: 2px solid orangered;
     background: rgb(244, 232, 235);
@@ -236,40 +234,75 @@
     height: 300px;
     margin-top: 70px;
 }
-.Subscribe{
+
+.Subscribe {
     border: none;
     background-color: #FF5400;
     border-radius: 6px;
     padding: 10px 15px 10px 15px;
     color: white;
 }
-.newsletter-image{
- margin-left: 650px;
-margin-top: -330px;
-  
-}
-.travel{
-background-color: #FF5400;
-border: none;
-padding: 14px 24px 14px 24px;
-color: white;
-border-radius: 5px;
-margin-top: -75px;
-bottom: 30px;
-margin-left: 880px;
-width: 300px;
-height: 100px;
-transform: rotate(-22.628deg);
+
+.newsletter-image {
+    margin-left: 650px;
+    margin-top: -330px;
+
 }
 
-.discount{
+.travel {
+    background-color: #FF5400;
+    border: none;
+    padding: 14px 24px 14px 24px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -75px;
+    margin-left: 880px;
+    width: 300px;
+    height: 100px;
+    transform: rotate(-22.628deg);
+}
+
+.discount {
     font-size: 20px;
     font-weight: 600;
 }
 
+/* extra section */
+#section {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
 
+.class {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin-top: 130px;
+}
 
+.content {
+    position: absolute;
+    left: 420px;
+    bottom: -3760px;
+    text-align: center;
+}
 
+.btn2 {
+    border: 2px solid skyblue;
+    border-radius: 4px;
+    background-color: skyblue;
+    padding: 10px 25px 10px 25px;
+}
+
+.description1 {
+    color: white;
+    text-align: center;
+}
 
 /* footer section */
 .footer {
@@ -302,3 +335,44 @@ transform: rotate(-22.628deg);
     margin-right: 550px;
     display: flex;
 }
+
+
+@media  screen and (min-width:576px) and (max-width:992px) {
+    .icon , 
+    .menu,
+    .input-button ,
+    .tours,
+    .row1,
+    .row2,
+    .row3,
+    .cards,
+    .image-of-icon ,
+    .icons{
+        flex-direction: column;
+    }
+    .navigation {
+        padding-top: 18px;
+    }
+    .navigation a,
+    .btn2,
+    .travel,
+    .Subscribe,
+    .btn1,
+    .btn{
+       
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
