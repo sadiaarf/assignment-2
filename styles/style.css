@@ -1,5 +1,5 @@
 * {
-    padding: 7px 12px;
+    padding: 7px 10px;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -29,9 +29,21 @@
 }
 
 /* explore your travel */
- .banner {
+.banner {
     text-align: center;
     margin: 20px;
+}
+
+.input-button {
+    display: flex;
+    margin: 0px 225px 0px 225px;
+}
+
+/* #group{
+    align-items: center;
+} */
+.images {
+    margin: 0px 15px 0px 20px;
 }
 
 .title {
@@ -43,141 +55,250 @@
     font-size: smaller;
 }
 
- .inp{
-    border-radius: 4px;
-  padding: 10px 0px 10px 5px;
-}
-/* .select1{
-  display:flex;
-  /* gap: -110px; */
-/*   
-}
-.place{
-    padding-right:0px;
-}
-.selector{
-    padding-left: 0%;
-    padding-right: 0%;
-} */ 
-.container{
-    max-height: 60px;
-   max-width: 200px;
-   box-sizing: border-box;
-   background: #FF5400;
-   padding-top: 0px;
- 
-}
-.inp1{
-   
-   
-   background: 2px solid rebeccapurple;
-display: flex; 
-padding-right: 0%;
- }
-.icon1{
- padding-top: 25px;
-padding-right: 30px;
-}
-.When{
-padding-left: 0px;
-padding-right: 90px;
+.input1 {
+    padding: 10px 0px 10px 6px;
 }
 
+.input2 {
+    padding: 10px 117px 10px 6px;
+    color: lightslategray;
+}
 
+.input3 {
+    padding: 9px 80px 9px 6px;
+    color: lightslategray;
+}
 
+.btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5400;
+    padding: 13px 22px;
+    color: white;
+}
 
 
 /* Our Popular Tours */
-.tours{
+.tours {
     display: flex;
     gap: 290px;
-   
+
 }
-.tours-title{
+
+.tours-title {
     font-size: 30px;
 }
-.description{
+
+.description {
     color: lightslategrey;
     font-size: 16px;
     font-weight: 400;
 }
-.btn1{
+
+.btn1 {
     background-color: #FF5400;
     border: none;
     border-radius: 5px;
     color: white;
     padding: 10px 13px;
 }
+
 /* Choose Your Destination */
-.travel-destination{
+.travel-destination {
     text-align: center;
 }
-.row1{
+
+.row1 {
     display: flex;
 }
-.img1{
+
+.img1 {
     position: relative;
 }
-.img1 .text1{
+
+.img1 .text1 {
     position: absolute;
     color: white;
-  font-size: 24px;
-  font-weight: 500;
- left: 245px;
+    font-size: 24px;
+    font-weight: 500;
+    left: 245px;
     top: 125px;
 }
-.row2{
+
+.row2 {
     display: flex;
 }
-.img3{
+
+.img3 {
     position: relative;
 }
-.img3 .text3{
+
+.img3 .text3 {
     position: absolute;
     color: white;
-  font-size: 24px;
-  font-weight: 500;
-  left: 115px;
-  top: 125px;
-}
-.img4{
-    position: relative;
-}
-.img4 .text4{
-    position: absolute;
-    color: white;
-  font-size: 24px;
-  font-weight: 500;
- left: 210px;
+    font-size: 24px;
+    font-weight: 500;
+    left: 115px;
     top: 125px;
 }
-.row3{
+
+.img4 {
+    position: relative;
+}
+
+.img4 .text4 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    left: 210px;
+    top: 125px;
+}
+
+.row3 {
     display: flex;
 }
-.img5{
+
+.img5 {
     position: relative;
 }
-.img5 .text5{
+
+.img5 .text5 {
     position: absolute;
     color: white;
-  font-size: 24px;
-  font-weight: 500;
- left: 220px;
-    top: 125px;
-}
-.img6{
-    position: relative;
-}
-.img6 .text6{
-    position: absolute;
-    color: white;
-  font-size: 24px;
-  font-weight: 500;
-  left: 252px;
+    font-size: 24px;
+    font-weight: 500;
+    left: 220px;
     top: 125px;
 }
 
+.img6 {
+    position: relative;
+}
+
+.img6 .text6 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    left: 252px;
+    top: 125px;
+}
+
+/* why choose us */
+.card1 {
+    border-radius: 10px;
+    border: 3px solid rgba(253, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 450px;
+    height: 274px;
+    margin-left: 40px;
+}
+
+.text-share {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descriptions {
+    color: lightslategray;
+    font-weight: 500;
+}
+
+.card2 {
+    border-radius: 10px;
+    border: 3px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 450px;
+    height: 274px;
+}
+
+.cards {
+    display: flex;
+    gap: 160px;
+}
+
+.card3 {
+    border-radius: 10px;
+    border: 3px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 450px;
+    height: 274px;
+    margin-left: 360px;
+
+}
+/* newsletter */
+.newsletter{
+    border-radius: 10px;
+    border: 2px solid orangered;
+    background: rgb(244, 232, 235);
+    width: 464px;
+    height: 300px;
+    margin-top: 70px;
+}
+.Subscribe{
+    border: none;
+    background-color: #FF5400;
+    border-radius: 6px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
+.newsletter-image{
+ margin-left: 650px;
+margin-top: -330px;
+  
+}
+.travel{
+background-color: #FF5400;
+border: none;
+padding: 14px 24px 14px 24px;
+color: white;
+border-radius: 5px;
+margin-top: -75px;
+bottom: 30px;
+margin-left: 880px;
+width: 300px;
+height: 100px;
+transform: rotate(-22.628deg);
+}
+
+.discount{
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 
 
+
+/* footer section */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+.travel-blog {
+    align-items: center;
+}
+
+.image-and-pr {
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.image-of-icon {
+    margin-left: 550px;
+    margin-right: 550px;
+    display: flex;
+}
